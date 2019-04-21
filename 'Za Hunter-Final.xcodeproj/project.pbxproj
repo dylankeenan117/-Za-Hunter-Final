@@ -12,6 +12,7 @@
 		F0AEE4D7226BE24600878CB8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0AEE4D5226BE24600878CB8 /* Main.storyboard */; };
 		F0AEE4D9226BE24B00878CB8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F0AEE4D8226BE24B00878CB8 /* Assets.xcassets */; };
 		F0AEE4DC226BE24B00878CB8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0AEE4DA226BE24B00878CB8 /* LaunchScreen.storyboard */; };
+		F0AEE4E4226BEA2C00878CB8 /* LocationDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0AEE4E3226BEA2C00878CB8 /* LocationDetailsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		F0AEE4D8226BE24B00878CB8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F0AEE4DB226BE24B00878CB8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F0AEE4DD226BE24B00878CB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F0AEE4E3226BEA2C00878CB8 /* LocationDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationDetailsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				F0AEE4D1226BE24600878CB8 /* AppDelegate.swift */,
 				F0AEE4D3226BE24600878CB8 /* ViewController.swift */,
+				F0AEE4E3226BEA2C00878CB8 /* LocationDetailsViewController.swift */,
 				F0AEE4D5226BE24600878CB8 /* Main.storyboard */,
 				F0AEE4D8226BE24B00878CB8 /* Assets.xcassets */,
 				F0AEE4DA226BE24B00878CB8 /* LaunchScreen.storyboard */,
@@ -135,6 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F0AEE4E4226BEA2C00878CB8 /* LocationDetailsViewController.swift in Sources */,
 				F0AEE4D4226BE24600878CB8 /* ViewController.swift in Sources */,
 				F0AEE4D2226BE24600878CB8 /* AppDelegate.swift in Sources */,
 			);
