@@ -48,13 +48,78 @@
                     <view key="view" contentMode="scaleToFill" id="12Q-Nd-5yM">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="n41-sd-ow4">
+                                <rect key="frame" x="166" y="180" width="42" height="32"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jsT-2R-hSG">
+                                <rect key="frame" x="166" y="419" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Pizza Details" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FzW-1Q-4Hl">
+                                <rect key="frame" x="138" y="93" width="98" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="j2Z-5E-RM3">
+                                <rect key="frame" x="152" y="516" width="70" height="30"/>
+                                <state key="normal" title="Directions"/>
+                                <connections>
+                                    <action selector="directionsButtonTap:" destination="Ygk-ko-pVz" eventType="touchUpInside" id="ssF-Qz-bLy"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3oO-LP-Wij">
+                                <rect key="frame" x="159" y="586" width="56" height="30"/>
+                                <state key="normal" title="Website"/>
+                                <connections>
+                                    <action selector="websiteButtonTapped:" destination="Ygk-ko-pVz" eventType="touchUpInside" id="AJo-jK-79A"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VRO-QX-EkC">
+                                <rect key="frame" x="166" y="304" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="nmR-te-nLw" firstAttribute="bottom" secondItem="3oO-LP-Wij" secondAttribute="bottom" constant="51" id="0g4-TW-7DT"/>
+                            <constraint firstItem="FzW-1Q-4Hl" firstAttribute="trailing" secondItem="n41-sd-ow4" secondAttribute="trailing" id="1Y2-8V-aJG"/>
+                            <constraint firstItem="VRO-QX-EkC" firstAttribute="top" secondItem="12Q-Nd-5yM" secondAttribute="top" constant="290" id="1fh-Jy-wi8"/>
+                            <constraint firstItem="n41-sd-ow4" firstAttribute="trailing" secondItem="VRO-QX-EkC" secondAttribute="trailing" id="DfM-MF-dUX"/>
+                            <constraint firstItem="3oO-LP-Wij" firstAttribute="leading" secondItem="nmR-te-nLw" secondAttribute="leading" constant="164" id="HgS-q2-9qR"/>
+                            <constraint firstItem="n41-sd-ow4" firstAttribute="trailing" secondItem="jsT-2R-hSG" secondAttribute="trailing" id="Jkx-zK-mgT"/>
+                            <constraint firstItem="n41-sd-ow4" firstAttribute="leading" secondItem="jsT-2R-hSG" secondAttribute="leading" id="Oa0-jF-7DV"/>
+                            <constraint firstItem="nmR-te-nLw" firstAttribute="trailing" secondItem="j2Z-5E-RM3" secondAttribute="trailing" constant="167" id="Ora-y0-4xv"/>
+                            <constraint firstItem="n41-sd-ow4" firstAttribute="top" secondItem="nmR-te-nLw" secondAttribute="top" constant="116" id="Qdb-lT-sOY"/>
+                            <constraint firstItem="FzW-1Q-4Hl" firstAttribute="top" secondItem="nmR-te-nLw" secondAttribute="top" constant="32" id="QpQ-fF-Ril"/>
+                            <constraint firstItem="jsT-2R-hSG" firstAttribute="leading" secondItem="nmR-te-nLw" secondAttribute="leading" constant="166" id="ZUa-LS-vef"/>
+                            <constraint firstItem="3oO-LP-Wij" firstAttribute="top" secondItem="j2Z-5E-RM3" secondAttribute="bottom" constant="41" id="bCB-Pd-uTb"/>
+                            <constraint firstItem="jsT-2R-hSG" firstAttribute="centerX" secondItem="12Q-Nd-5yM" secondAttribute="centerX" id="ep6-0W-HHd"/>
+                            <constraint firstItem="j2Z-5E-RM3" firstAttribute="trailing" secondItem="jsT-2R-hSG" secondAttribute="trailing" id="gmQ-yV-7vu"/>
+                            <constraint firstItem="3oO-LP-Wij" firstAttribute="centerX" secondItem="jsT-2R-hSG" secondAttribute="centerX" id="u3F-ok-0EN"/>
+                            <constraint firstItem="nmR-te-nLw" firstAttribute="bottom" secondItem="jsT-2R-hSG" secondAttribute="bottom" constant="227" id="u4K-zC-92d"/>
+                            <constraint firstItem="FzW-1Q-4Hl" firstAttribute="leading" secondItem="n41-sd-ow4" secondAttribute="leading" id="yPh-ri-2tL"/>
+                            <constraint firstItem="n41-sd-ow4" firstAttribute="leading" secondItem="VRO-QX-EkC" secondAttribute="leading" id="yyM-RN-vVM"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="nmR-te-nLw"/>
                     </view>
+                    <connections>
+                        <outlet property="addressLabel" destination="VRO-QX-EkC" id="72u-z8-eSi"/>
+                        <outlet property="nameLabel" destination="n41-sd-ow4" id="XFz-JC-VJO"/>
+                        <outlet property="phoneLabel" destination="jsT-2R-hSG" id="qq3-Sp-X5V"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x3I-Dd-o3l" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1774" y="126"/>
+            <point key="canvasLocation" x="1773.5999999999999" y="125.4872563718141"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="yx6-S2-NI7">
